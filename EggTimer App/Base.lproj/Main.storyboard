@@ -50,6 +50,7 @@
                                                         <state key="normal" title="Soft"/>
                                                         <connections>
                                                             <action selector="EggButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bLF-zs-W4C"/>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="86f-ro-NzK"/>
                                                             <action selector="softnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="phj-i8-kxd"/>
                                                         </connections>
                                                     </button>
@@ -76,6 +77,7 @@
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                         <state key="normal" title="Medium"/>
                                                         <connections>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="biT-1q-Ixq"/>
                                                             <action selector="softnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mMx-Pi-W2Q"/>
                                                         </connections>
                                                     </button>
@@ -102,6 +104,7 @@
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                         <state key="normal" title="Hard"/>
                                                         <connections>
+                                                            <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9zO-sO-L89"/>
                                                             <action selector="softnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DFy-OH-aqC"/>
                                                         </connections>
                                                     </button>
