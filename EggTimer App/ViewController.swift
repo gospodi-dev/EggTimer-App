@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     let eggTimes = ["Soft": 3, "Medium": 4, "Hard": 7]
     var timer = Timer()
+    var player: AVAudioPlayer!
     var totalTime = 0
     var secondsPassed = 0
     
@@ -23,7 +24,7 @@ class ViewController: UIViewController {
         let hardness = sender.currentTitle!
         totalTime = eggTimes[hardness]!
 
-        //progressBar.progress = 0.0
+        progressBar.progress = 0.0
         secondsPassed = 0
         titleLabel.text = hardness
 
@@ -38,6 +39,10 @@ class ViewController: UIViewController {
         } else {
             timer.invalidate()
             titleLabel.text = "DONE!"
+            
+            let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
+            player = try! AVAudioPlayer(contentsOf: url!)
+            player.play()
         }
     }
     
