@@ -13,6 +13,7 @@
 		CCFF815727A7D75B002EC83A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFF815527A7D75B002EC83A /* Main.storyboard */; };
 		CCFF815927A7D75B002EC83A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFF815827A7D75B002EC83A /* Assets.xcassets */; };
 		CCFF815C27A7D75B002EC83A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFF815A27A7D75B002EC83A /* LaunchScreen.storyboard */; };
+		CCFF816427A7DA81002EC83A /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCFF816327A7DA81002EC83A /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CCFF815827A7D75B002EC83A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCFF815B27A7D75B002EC83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCFF815D27A7D75B002EC83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFF816327A7DA81002EC83A /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				CCFF815527A7D75B002EC83A /* Main.storyboard */,
 				CCFF815827A7D75B002EC83A /* Assets.xcassets */,
 				CCFF815A27A7D75B002EC83A /* LaunchScreen.storyboard */,
+				CCFF816327A7DA81002EC83A /* alarm_sound.mp3 */,
 				CCFF815D27A7D75B002EC83A /* Info.plist */,
 			);
 			path = "EggTimer App";
@@ -127,6 +130,7 @@
 			files = (
 				CCFF815C27A7D75B002EC83A /* LaunchScreen.storyboard in Resources */,
 				CCFF815927A7D75B002EC83A /* Assets.xcassets in Resources */,
+				CCFF816427A7DA81002EC83A /* alarm_sound.mp3 in Resources */,
 				CCFF815727A7D75B002EC83A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
