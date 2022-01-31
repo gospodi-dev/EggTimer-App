@@ -14,14 +14,25 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Background View">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WSf-XL-0J5">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.27367889171371479" green="0.72586648933815234" blue="0.55460050664915905" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.079870764179999998" green="0.32750740649999999" blue="0.2868608238" alpha="0.58857615890000003" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="WSf-XL-0J5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8p5-2N-oFd"/>
+                            <constraint firstItem="WSf-XL-0J5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Kfb-Xi-nyc"/>
+                            <constraint firstItem="WSf-XL-0J5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iaa-kE-dLT"/>
+                            <constraint firstItem="WSf-XL-0J5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w4y-3G-cZP"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="70"/>
+            <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
         </scene>
     </scenes>
 </document>
